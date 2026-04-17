@@ -1,0 +1,73 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #db0e0e;
+    color: #333;
+}
+
+.pacifico {
+    font-family: 'Pacifico', cursive;
+}
+
+.header {
+    background: linear-gradient(135deg, #ff6f61, #d4a5ff);
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    color: #940b0b !important;
+}
+
+.nav-link {
+    color: #680a0a !important;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #98d8aa !important;
+}
+
+.btn-coral {
+    background-color: #ff6f61;
+    border-color: #ff6f61;
+    color: #791f1f;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+.btn-coral:hover {
+    background-color: #e65b50;
+    border-color: #e65b50;
+    color: #810303;
+}
+
+.card {
+    border: none;
+    border-radius: 15px;
+    background-color: #98d8aa;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.bg-mint {
+    background-color: #98d8aa;
+}
+
+.bg-lavender {
+    background-color: #d4a5ff;
+}
+
+.footer {
+    background-color: #2a4066;
+}
+
+.text-coral {
+    color: #ff6f61;
+}
+
+.text-mint {
+    color: #98d8aa;
+}

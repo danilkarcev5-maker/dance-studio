@@ -1,0 +1,113 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fffaf0;
+    color: #333;
+}
+
+.pacifico {
+    font-family: 'Pacifico', cursive;
+}
+
+.header {
+    background: linear-gradient(135deg, #4a2c6a, #ff87b2);
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    color: #fff !important;
+}
+
+.nav-link {
+    color: #fff !important;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #a5d6a7 !important;
+}
+
+.btn-orange {
+    background-color: #ff7043;
+    border-color: #ff7043;
+    color: #fff;
+    border-radius: 20px;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-orange:hover {
+    background-color: #f45133;
+    border-color: #f45133;
+}
+
+.card {
+    border: none;
+    border-radius: 15px;
+    background-color: #a5d6a7;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.bg-mint {
+    background-color: #a5d6a7;
+}
+
+.footer {
+    background-color: #2f4f4f;
+}
+
+.text-orange {
+    color: #ff7043;
+}
+
+.text-mint {
+    color: #a5d6a7;
+}
+
+.hero {
+    padding: 60px 0;
+    border-radius: 0 0 15px 15px;
+}
+/* Существующие стили остаются, добавляем новые */
+.form-control {
+    border-radius: 10px;
+    border: 1px solid #a5d6a7;
+    padding: 10px;
+    transition: border-color 0.3s ease;
+}
+
+.form-control:focus {
+    border-color: #ff7043;
+    box-shadow: none;
+}
+
+.invalid-feedback {
+    color: #f45133;
+}
+
+.bg-mint {
+    background-color: #a5d6a7;
+    border-radius: 15px;
+}
+
+.btn-orange {
+    background-color: #ff7043;
+    border-color: #ff7043;
+    color: #fff;
+    border-radius: 20px;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-orange:hover {
+    background-color: #f45133;
+    border-color: #f45133;
+}
+
+.w-100 {
+    width: 100%;
+}
